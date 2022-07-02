@@ -430,18 +430,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .work-examples-img {        
     list-style: none;
     display: flex; 
-    flex-wrap: wrap; 
-    align-items: center;
+    flex-wrap: wrap;     
     gap: 30px 30px;
     padding-left: 0;
-           
+               
 }
 
 .work-examples-border-bottom {
     border-bottom: 1px solid #EEEEEE;
+    flex-basis: calc((100%-60px)/3);
+    max-width: 370px;
 }
-
-
 
 .work-examples-h {
     width: 322px;
